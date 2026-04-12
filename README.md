@@ -1,4 +1,4 @@
-# 🎵 NyrvanaPlayer
+# 🎵 Marulk
 
 A modern, customizable music player built with PyQt6 and pygame, featuring real-time audio visualization and integrated YouTube downloader with automatic MP3/GIF conversion.
 
