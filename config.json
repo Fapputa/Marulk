@@ -1,72 +1,337 @@
 {
     "window": {
         "width": 270,
-        "height": 450,
-        "background_color": "#e66100",
-        "background_image_path": "/home/nyrvana/Desktop/blank/assets/images/0x1900-000000-80-0-0.jpg"
+        "height": 531,
+        "title": "Marulk",
+        "background_color": "#5f1f13",
+        "background_image_path": "/home/Faputa/images/picture.jpg",
+        "opacity": 1.0
+    },
+    "animations": {
+        "enabled": true,
+        "hover_enabled": true,
+        "click_enabled": true,
+        "glow_enabled": true,
+        "ripple_enabled": true,
+        "spin_enabled": true,
+        "pulse_enabled": true,
+        "glow_strength": 1.0,
+        "window_fade_in": true,
+        "duration": 150,
+        "hover_scale": 1.1,
+        "click_scale": 0.95
     },
     "buttons": {
-        "font_family": "Arial",
-        "font_size": 6,
-        "color": "#FFFFFF",
-        "shape": "rounded",
+        "font_family": "Playhouse",
+        "font_path": "",
+        "font_size": 8,
+        "text_color": "#000000",
         "play": {
-            "shape": "rounded",
-            "color": "#f6d32d",
+            "shape": "square",
+            "color": "#955053",
+            "text_color": "#FFFFFF",
             "size": [
                 35,
                 35
             ],
-            "image_path": ""
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "loop": {
+            "shape": "circle",
+            "color": "#56170e",
+            "text_color": "#FFFFFF",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "nightcore": {
+            "shape": "circle",
+            "color": "#6c261b",
+            "text_color": "#FFFFFF",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
         },
         "rewind": {
             "shape": "rounded",
-            "color": "#ffa348",
+            "color": "#6c261b",
+            "text_color": "#FFFFFF",
             "size": [
                 30,
                 30
             ],
-            "image_path": ""
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
         },
         "forward": {
             "shape": "rounded",
-            "color": "#ffa348",
+            "color": "#6c261b",
+            "text_color": "#FFFFFF",
             "size": [
                 30,
                 30
             ],
-            "image_path": ""
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
         },
-        "rewind_backward": {
-            "shape": "square",
-            "color": "#f9f06b",
-            "size": [
-                30,
-                30
-            ],
-            "image_path": "/home/nyrvana/Desktop/blank/assets/images/8a660ebd6451557a4b290a820fef014bb103ca64dd669a1fc063535279511273._SX1080_FMjpg_.jpg"
-        },
-        "text_color": "#000000",
-        "header": {
+        "stop": {
             "shape": "rounded",
-            "color": "#c64600",
+            "color": "#613583",
+            "text_color": "#FFFFFF",
             "size": [
-                50,
-                50
+                30,
+                30
             ],
-            "image_path": ""
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "shuffle": {
+            "shape": "rounded",
+            "color": "#7b3fa0",
+            "text_color": "#FFFFFF",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "mute": {
+            "shape": "rounded",
+            "color": "#613583",
+            "text_color": "#FFFFFF",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "skin": {
+            "shape": "rounded",
+            "color": "#613583",
+            "text_color": "#FFFFFF",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "viz": {
+            "shape": "rounded",
+            "color": "#613583",
+            "text_color": "#FFFFFF",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "playlist": {
+            "shape": "rounded",
+            "color": "#613583",
+            "text_color": "#FFFFFF",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "pin": {
+            "shape": "rounded",
+            "color": "#ffffff",
+            "text_color": "#000000",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "colorize": {
+            "shape": "rounded",
+            "color": "#ffffff",
+            "text_color": "#000000",
+            "size": [
+                26,
+                26
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "config": {
+            "shape": "square",
+            "color": "#601d14",
+            "text_color": "#000000",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "search": {
+            "shape": "square",
+            "color": "#601d14",
+            "text_color": "#000000",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "reload": {
+            "shape": "square",
+            "color": "#601d14",
+            "text_color": "#000000",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "minimize": {
+            "shape": "square",
+            "color": "#601d14",
+            "text_color": "#000000",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
+        },
+        "close": {
+            "shape": "square",
+            "color": "#601d14",
+            "text_color": "#FFFFFF",
+            "size": [
+                30,
+                30
+            ],
+            "image_path": "",
+            "border_width": 0,
+            "border_color": "#000000",
+            "opacity": 1.0
         }
     },
     "progress_bar": {
-        "color": "#ffbe6f",
-        "background_color": "#e66100",
+        "color": "#ffffff",
+        "background_color": "#9b4e50",
         "height": 10,
-        "radius": 10
+        "radius": 10,
+        "show_time": true,
+        "animated": true,
+        "style": "gradient",
+        "glow": true,
+        "knob": true
     },
     "visualizer": {
-        "num_bars": 60,
-        "color_start": "#ffffff",
+        "enabled": true,
+        "num_bars": 120,
+        "color_start": "#aa0000",
         "color_end": "#ffffff",
-        "intensity": 10.0
+        "intensity": 5.0,
+        "style": "wave",
+        "height": 120
+    },
+    "volume_bar": {
+        "background_color": "#444444",
+        "slider_color": "#9b4e50",
+        "height": 10,
+        "slider_shape": "square",
+        "radius": 5,
+        "default_volume": 70,
+        "style": "gradient",
+        "glow": true,
+        "knob": true,
+        "animated": false
+    },
+    "overlay": {
+        "show_on_hover": false,
+        "opacity": 0.8,
+        "color": "#000000"
+    },
+    "nightcore": {
+        "ratio": 1.25,
+        "enabled_at_startup": false,
+        "auto_render_next": true
+    },
+    "media": {
+        "skin": "cassette",
+        "size": 123,
+        "spin": true,
+        "rpm": 33.3,
+        "follow_nightcore": true,
+        "insert_animation": true,
+        "tonearm": true,
+        "shine": true,
+        "label_ratio": 0.36,
+        "body_color": "#141414",
+        "accent_color": "#c8a45a",
+        "colorize": true,
+        "click_toggles_play": true
+    },
+    "colorize": {
+        "enabled": true,
+        "strength": 0.9,
+        "animate": true,
+        "background": true,
+        "buttons": true,
+        "bars": true,
+        "visualizer": true,
+        "media": true
+    },
+    "playlist": {
+        "visible": true,
+        "height": 80,
+        "text_color": "#ffffff",
+        "background_opacity": 0.25
     }
 }
